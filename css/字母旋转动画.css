@@ -1,0 +1,62 @@
+.content .chars{
+    opacity: 0;
+}
+.content .chars:nth-child(1){
+    animation: char12 2.4s linear forwards;
+}
+
+.content .chars:nth-child(2){
+    animation: char12 2.1s linear forwards;
+    animation-delay: 0.3s;
+}
+@keyframes char12{
+    0% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(720deg);
+    }   
+}
+
+.content .chars:nth-child(3){
+    animation: char34 1.8s linear forwards;
+    animation-delay: 0.7s;
+}
+.content .chars:nth-child(4){
+    animation: char34 0.9s linear forwards;
+    animation-delay: 1.2s;
+}
+@keyframes char34{
+    0% {
+        opacity: 1;
+        transform: rotateY(180deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(720deg);
+    }   
+}
+.content .chars:nth-child(5){
+    animation: char567 0.8s linear forwards;
+    animation-delay: 1.5s;
+}
+.content .chars:nth-child(6){
+    animation: char567 0.7s linear forwards;
+    animation-delay: 1.8s;
+}
+.content .chars:nth-child(7){
+    animation: char567 0.6s linear forwards;
+    animation-delay: 1.8s;
+}
+@keyframes char567{
+    0% {
+        opacity: 1;
+        transform: rotateY(270deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(720deg);
+    }   
+}
