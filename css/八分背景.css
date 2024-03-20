@@ -1,0 +1,27 @@
+.cards{
+    list-style-type: none;
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    z-index: -10;
+
+}
+.cards .card{
+    flex: 1;
+    height: 100vh;
+    background-size: auto 100%;
+    background-position: 28% center;
+    background-repeat: no-repeat;
+
+    border-left: 0.5vw solid #000;
+    border-right:0.5vw solid #000 ;
+}
+.cards .card:first-child{
+    border-left: 0;
+}
+.cards .card:last-child{
+    border-right: 0;
+}

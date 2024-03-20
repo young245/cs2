@@ -1,0 +1,38 @@
+.cards{
+    opacity: 0;
+    animation: show-cards 2.1s ease-out forwards;
+    animation-delay: 1.5s;
+}
+@keyframes show-cards{
+    from{
+        width: 40vw;
+        opacity: 0;
+    }
+    to{
+        width: 100vw;
+        opacity: 1;
+    }
+}
+
+.xs {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* 盒子内容元素纵轴对齐 */
+    justify-content: center;
+    perspective: 450;
+    -webkit-perspective: 450;
+
+    animation: show-xs 2s ease-out forwards;
+    animation-delay: 2.4s;
+}
+@keyframes show-xs{
+    from{
+       
+        opacity: 1;
+    }
+    to{
+        
+        opacity: 0;
+    }
+}
